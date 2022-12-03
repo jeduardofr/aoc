@@ -1,5 +1,9 @@
 use std::io;
 
+// For reference:
+// https://www.becomebetterprogrammer.com/rust-read-user-input-stdin/
+// https://doc.rust-lang.org/stable/rust-by-example/std/vec.html
+// https://www.cloudhadoop.com/rust-convert-string-int-example/
 fn main() -> io::Result<()> {
     let mut elves_input: Vec<u32> = vec![];
     let stdin = io::stdin();
